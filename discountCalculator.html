@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discount Calculator</title>
+    <style>
+      *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+      
+    }
+    html{
+        height: 100%;
+    }
+    body{
+        font-family: 'Segoe UI', sans-serif;;
+        font-size: 1rem;
+        line-height: 1.6;
+        height: 100%;
+    }
+    .wrap {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fafafa;
+    }
+    .discount-form{
+        width:fit-content;
+        margin: 0 auto;
+        border: 1px solid #ddd;
+        padding: 2rem;
+border-radius: 10px;
+        background: #ffffff;
+        background-color:burlywood;
+    }   
+    .form-input{
+        background: #fafafa;
+        border: 1px solid #eeeeee;
+        padding: 12px;
+        width: 100%;
+    }
+    .form-button{
+        background: greenyellow;
+        border: 1px solid #ddd;
+        color:black;
+        padding: 20px;
+        width: 100%;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+    .form-button:hover{
+        background:blue;
+    }
+      .heading,label,p  {
+        color:darkcyan;
+      }
+      .heading{
+
+        text-align: center;
+        margin-bottom: 10px;
+      }
+    
+      
+#calculate{
+color:white;
+background-color:green;
+width:fit-content;
+}
+     
+    </style>
+  </head>
+  
+  <body>
+<div class="wrap">
+  <form class="discount-form"action="">
+    <div class="heading">
+
+      <h3>Discount Calculator</h3>
+
+    </div>
+      <!-- Bill Amount Label -->
+<div>  
+      <label for="">Enter the Bill amount and discount in  percentage<br />
+        Bill Amount</label>
+        </div>
+          <!-- Bill Amount input -->
+          <div>
+            <input type="number"  class="form-input"/>
+          </div>
+           <!-- Discount Percentage Label -->
+
+  
+    <div>
+      <label for="">discount in percentage</label>
+    </div>
+      <!-- discount percentage input -->
+      <div>
+        <input type="number" class="form-input"/>
+      </div>
+      <!--Calculate Button-->
+    
+      <div >
+        <button type="submit" class="form-button">calculate</button>
+    </div>
+    <div> <p>Total Discount amount</p></div>
+      </form>
+</div>
+  </body>
+</html>
+ 
+
+    
+   
+    
+
+    
+     
